@@ -19,6 +19,9 @@ public class Article {
     private Date createTime;
 
 
+
+
+
     @Override
     public String toString( ) {
         return "Article{"    +
