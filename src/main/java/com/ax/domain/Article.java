@@ -20,8 +20,8 @@ public class Article {
 
 
     @Override
-    public String toString() {
-        return "Article{" +
+    public String toString( ) {
+        return "Article{"    +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
