@@ -14,7 +14,7 @@ public class Article {
     @Field(index=true,analyzer="ik_smart",store=true,searchAnalyzer="ik_smart",type = FieldType.Text)
     private String title;
     @Field(index=true,analyzer="ik_smart",store=true,searchAnalyzer="ik_smart",type = FieldType.Text)
-    private String content;
+    private String content ;
     @Field(index=true,store=true,type = FieldType.Date)
     private Date createTime;
 
